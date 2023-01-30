@@ -1,0 +1,20 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+VARIABILI:
+
+numero di telaio            VARCHAR(17)
+marca                       VARCHAR(100)    //100 caratteri per sicurezza, potrebbero bastarne meno
+modello                     VARCHAR(100)    //100 caratteri per sicurezza, potrebbero bastarne meno
+anno                        YEAR
+km percorsi                 MEDIUMINT       //+- 8.388.608 se preso senza segno da 0 a 16.777.216
+prezzo                      FLOAT(8, 2)      
+numero di posti             TINYINT         //+- 128 se preso senza segno da 0 a 255
+numero di porte             TINYINT         //+- 128 se preso senza segno da 0 a 255
+cambio automatico           BIT             //un solo bit usato come variabile booleana
+colore                      VARCHAR(100)    //100 caratteri per sicurezza, potrebbero bastarne meno
+guida a sinistra            BIT             //un solo bit usato come variabile booleana
+incidentata                 BIT             //un solo bit usato come variabile booleana
+numero di proprietari       TINYINT         //+- 128 se preso senza segno da 0 a 255
+
+
+
